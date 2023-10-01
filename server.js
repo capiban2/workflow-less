@@ -4,6 +4,7 @@ const port = 3000;
 
 app.get('/', () =>{
 	console.log('get request');
+	console.log(`NEW ROW ADDED`);
 	res.send('hello world');
 });
 
